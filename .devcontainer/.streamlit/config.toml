@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor = "#4e7cff"               # Bright clinical blue for buttons and highlights
+backgroundColor = "#fdfdfd"            # Very light background for clean feel
+secondaryBackgroundColor = "#eef1f7"   # Subtle gray-blue panels for contrast
+textColor = "#0c0c0c"                  # Dark text for readability
+font = "sans serif"                    # Clean and modern font
