@@ -45,7 +45,7 @@ def iv_bolus(C0, k, t):
     return C0 * np.exp(-k * t)
 
 def oral_dose(D, Vd, ka, k, t):
-    # Avoid divide-by-zero
+
     if ka == k:
         return np.zeros_like(t)
     return (D * ka) / (Vd * (ka - k)) * (np.exp(-k * t) - np.exp(-ka * t))
@@ -102,7 +102,7 @@ df = pd.DataFrame({
     "Time (hr)": time,
     "Concentration (mg/L)": concentration
 })
-st.dataframe(df.iloc[::50])  # Show every 50th row
+st.dataframe(df.iloc[::50])  
 
 csv = df.to_csv(index=False).encode()
 st.download_button("📥 Download CSV", csv, "concentration_data.csv", "text/csv")
