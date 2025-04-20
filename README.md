@@ -1,6 +1,6 @@
 # Drug Exposre Simul App.
 
-This web application models drug exposure and elimination in the human body using a one-compartment pharmacokinetic model. Built with Streamlit, the app allows users to simulate intravenous (IV) bolus and oral dosing with customizable parameters, including multiple-dose regimens.
+This web application models drug exposure and elimination in the human body using a one-compartment pharmacokinetic model. the app allows users to simulate intravenous (IV) bolus and oral dosing with customizable parameters, including multiple-dose regimens.
 
 ## Features
 - Test it out on https://math2-drugexpo-proto.streamlit.app/
